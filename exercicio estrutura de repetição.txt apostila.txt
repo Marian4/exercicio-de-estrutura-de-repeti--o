@@ -1,0 +1,98 @@
+P4.26- para repetir comandos até que uma condição seja insatisfeita.
+P5.27- trata-se de quando a quantidade de repetições já é conhecida e utilizamos uma variável a qual vai ser incrementada
+ um valor a cada vez que o comando de repetição rodar, como se fosse uma contagem
+ex:
+	a = 1			<- variável
+	enquanto a < 10 faça	<- condição
+		leia (a)	<- imprimindo o valor da variável na tela
+		a = a + 1	<- foi incrementado 1 ao valor inicial da variável
+
+P4.28- consiste quando o número de repetiçãoes é desconhecido e será lido(esse é o flag) 
+P4.29-
+	0	-1	true	-
+	1        1	true	2
+	2	-1	true	-
+	3        1	true	4
+	4	-1	true	-
+	5        1	true	6
+	6	-1	false	
+
+P4.30-
+n = 1
+
+while n < 51 :
+
+	print(n)
+
+	n = n + 1
+
+P4.31-
+n = 1
+
+while n < 101 :
+
+	if n % 2 == 0 :
+
+		print(n)
+
+	n = n + 1
+
+P4.32-
+n = 1
+
+while n < 1001 :
+
+	if n % 10 == 0 :
+
+		print(n)
+
+	n = n + 1
+
+P4.33-
+n = 100
+
+while n != 0 :
+
+	print(n)
+
+	n = n - 1
+
+ou
+
+for x in range(100,0,-1):
+
+	print(x)
+
+P4.34-
+N = eval(input("digite um número:"))
+
+n = 1
+
+soma = 0
+
+while n <= N :
+
+	soma = soma + n
+
+	soma = soma
+
+	n = n + 1
+
+print('a soma dos números inteiros de 1 até N,incluindo N, é igual a',soma)
+
+P4.35-
+n = eval(input("digite um número:"))
+
+x = 1
+
+H = 1
+
+for i in range(2,n+1):
+
+	x = h
+
+	H = x+1/i
+
+print(H)
+
+...
